@@ -1,0 +1,160 @@
+<svg width="680" height="580" viewBox="0 0 680 580" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>SDS-23 logo</title>
+<desc>S D S letterforms fused, pink S letters flanking blue D, red heart inside D, clouds below</desc>
+
+<defs>
+  <linearGradient id="gSL" x1="0%" y1="0%" x2="100%" y2="120%">
+    <stop offset="0%" stop-color="#f0c0d0"/>
+    <stop offset="45%" stop-color="#e89ab5"/>
+    <stop offset="100%" stop-color="#c96a8a"/>
+  </linearGradient>
+  <linearGradient id="gD" x1="0%" y1="0%" x2="80%" y2="100%">
+    <stop offset="0%" stop-color="#b8d4f0"/>
+    <stop offset="45%" stop-color="#88aee0"/>
+    <stop offset="100%" stop-color="#5a80c8"/>
+  </linearGradient>
+  <linearGradient id="gSR" x1="100%" y1="0%" x2="0%" y2="120%">
+    <stop offset="0%" stop-color="#f0c0d0"/>
+    <stop offset="45%" stop-color="#e89ab5"/>
+    <stop offset="100%" stop-color="#c96a8a"/>
+  </linearGradient>
+
+  <!-- Heart: vivid red radial -->
+  <radialGradient id="gHeart" cx="35%" cy="28%" r="65%">
+    <stop offset="0%" stop-color="#ff4466"/>
+    <stop offset="55%" stop-color="#dd1133"/>
+    <stop offset="100%" stop-color="#880018"/>
+  </radialGradient>
+
+  <!-- Heart drop shadow filter -->
+  <filter id="heartShadow" x="-60%" y="-60%" width="220%" height="220%">
+    <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#cc0022" flood-opacity="0.7"/>
+    <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#ff2244" flood-opacity="0.5"/>
+  </filter>
+
+  <linearGradient id="gSheen" x1="15%" y1="0%" x2="85%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="gFuse" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#9b2050" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#9b2050" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gCloud1" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#f5e6ef" stop-opacity="0.92"/>
+    <stop offset="100%" stop-color="#e0c0d0" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gCloud2" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#e8d0e0" stop-opacity="0.80"/>
+    <stop offset="100%" stop-color="#d0b0c0" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="gCloud3" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#f0e0e8" stop-opacity="0.70"/>
+    <stop offset="100%" stop-color="#d8b8c8" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- Fuse glow -->
+<ellipse cx="340" cy="270" rx="290" ry="120" fill="url(#gFuse)"/>
+
+<!-- ── S LEFT ── -->
+<path d="M170 182 C132 182 96 202 84 240 C74 270 90 298 116 316 L168 344 C188 355 202 370 198 392 C194 416 172 430 148 430 C124 430 104 418 90 402 L70 424 C90 448 124 464 156 464 C200 464 240 440 250 406 C260 374 242 346 216 330 L164 302 C146 292 132 278 138 256 C144 236 164 222 186 222 C208 222 228 232 242 250 L264 228 C246 204 212 182 170 182 Z"
+  fill="#5a1030" opacity="0.5" transform="translate(4,6)"/>
+<path d="M170 182 C132 182 96 202 84 240 C74 270 90 298 116 316 L168 344 C188 355 202 370 198 392 C194 416 172 430 148 430 C124 430 104 418 90 402 L70 424 C90 448 124 464 156 464 C200 464 240 440 250 406 C260 374 242 346 216 330 L164 302 C146 292 132 278 138 256 C144 236 164 222 186 222 C208 222 228 232 242 250 L264 228 C246 204 212 182 170 182 Z"
+  fill="url(#gSL)"/>
+<path d="M170 182 C132 182 96 202 84 240 C74 270 90 298 116 316 L145 330 C124 312 118 286 128 260 C138 234 162 218 186 218 C208 218 228 230 242 248 L264 228 C246 204 212 182 170 182 Z"
+  fill="url(#gSheen)"/>
+<path d="M170 182 C132 182 96 202 84 240 C74 270 90 298 116 316 L168 344 C188 355 202 370 198 392 C194 416 172 430 148 430 C124 430 104 418 90 402 L70 424 C90 448 124 464 156 464 C200 464 240 440 250 406 C260 374 242 346 216 330 L164 302 C146 292 132 278 138 256 C144 236 164 222 186 222 C208 222 228 232 242 250 L264 228 C246 204 212 182 170 182 Z"
+  fill="none" stroke="#7a1530" stroke-width="2.5" opacity="0.8"/>
+
+<!-- ── D CENTER ── -->
+<path d="M252 188 L252 458 L332 458 C406 458 454 408 454 323 C454 238 406 188 332 188 Z M290 224 L326 224 C382 224 414 266 414 323 C414 380 382 422 326 422 L290 422 Z"
+  fill="#5a1030" opacity="0.5" fill-rule="evenodd" transform="translate(4,6)"/>
+<path d="M252 188 L252 458 L332 458 C406 458 454 408 454 323 C454 238 406 188 332 188 Z M290 224 L326 224 C382 224 414 266 414 323 C414 380 382 422 326 422 L290 422 Z"
+  fill="url(#gD)" fill-rule="evenodd"/>
+<path d="M252 188 L290 188 L290 208 L252 208 Z" fill="url(#gSheen)" opacity="0.6"/>
+<path d="M290 188 L332 188 C374 188 410 210 430 248 C412 212 376 208 330 208 L290 208 Z" fill="url(#gSheen)" opacity="0.5"/>
+<path d="M252 188 L252 458 L332 458 C406 458 454 408 454 323 C454 238 406 188 332 188 Z M290 224 L326 224 C382 224 414 266 414 323 C414 380 382 422 326 422 L290 422 Z"
+  fill="none" stroke="#7a1530" stroke-width="2.5" fill-rule="evenodd" opacity="0.8"/>
+
+<!-- ── S RIGHT ── -->
+<path d="M510 182 C472 182 436 202 424 240 C414 270 430 298 456 316 L508 344 C528 355 542 370 538 392 C534 416 512 430 488 430 C464 430 444 418 430 402 L410 424 C430 448 464 464 496 464 C540 464 580 440 590 406 C600 374 582 346 556 330 L504 302 C486 292 472 278 478 256 C484 236 504 222 526 222 C548 222 568 232 582 250 L604 228 C586 204 552 182 510 182 Z"
+  fill="#5a1030" opacity="0.5" transform="translate(4,6)"/>
+<path d="M510 182 C472 182 436 202 424 240 C414 270 430 298 456 316 L508 344 C528 355 542 370 538 392 C534 416 512 430 488 430 C464 430 444 418 430 402 L410 424 C430 448 464 464 496 464 C540 464 580 440 590 406 C600 374 582 346 556 330 L504 302 C486 292 472 278 478 256 C484 236 504 222 526 222 C548 222 568 232 582 250 L604 228 C586 204 552 182 510 182 Z"
+  fill="url(#gSR)"/>
+<path d="M510 182 C472 182 436 202 424 240 C414 270 430 298 456 316 L482 330 C462 312 456 286 466 260 C476 234 500 218 526 218 C548 218 568 230 582 248 L604 228 C586 204 552 182 510 182 Z"
+  fill="url(#gSheen)"/>
+<path d="M510 182 C472 182 436 202 424 240 C414 270 430 298 456 316 L508 344 C528 355 542 370 538 392 C534 416 512 430 488 430 C464 430 444 418 430 402 L410 424 C430 448 464 464 496 464 C540 464 580 440 590 406 C600 374 582 346 556 330 L504 302 C486 292 472 278 478 256 C484 236 504 222 526 222 C548 222 568 232 582 250 L604 228 C586 204 552 182 510 182 Z"
+  fill="none" stroke="#7a1530" stroke-width="2.5" opacity="0.8"/>
+
+<!-- ── HEART in D — vivid red with pop-out shadow ── -->
+<path d="M355 288 C355 272 342 264 332 268 C323 272 316 282 316 291 C309 282 300 276 291 280 C280 285 279 301 288 312 L316 342 C323 349 330 353 332 353 C334 353 341 349 348 342 L376 312 C385 301 384 284 373 280 C364 276 355 283 355 288 Z"
+  fill="url(#gHeart)" filter="url(#heartShadow)"/>
+<!-- Heart gloss highlight -->
+<path d="M332 268 C325 273 318 283 318 292 C315 278 326 265 335 268 Z"
+  fill="#ffffff" opacity="0.45"/>
+<!-- Heart crisp edge -->
+<path d="M355 288 C355 272 342 264 332 268 C323 272 316 282 316 291 C309 282 300 276 291 280 C280 285 279 301 288 312 L316 342 C323 349 330 353 332 353 C334 353 341 349 348 342 L376 312 C385 301 384 284 373 280 C364 276 355 283 355 288 Z"
+  fill="none" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+
+<!-- ── STAR SPARKS ── -->
+<g stroke="#f0c8d8" stroke-linecap="round">
+  <line x1="118" y1="150" x2="118" y2="168" stroke-width="0.9" opacity="0.75"/>
+  <line x1="109" y1="159" x2="127" y2="159" stroke-width="0.9" opacity="0.75"/>
+  <line x1="112" y1="153" x2="124" y2="165" stroke-width="0.5" opacity="0.6"/>
+  <line x1="124" y1="153" x2="112" y2="165" stroke-width="0.5" opacity="0.6"/>
+  <circle cx="118" cy="159" r="1.4" fill="#fff" stroke="none" opacity="0.9"/>
+  <line x1="560" y1="138" x2="560" y2="154" stroke-width="0.8" opacity="0.65"/>
+  <line x1="552" y1="146" x2="568" y2="146" stroke-width="0.8" opacity="0.65"/>
+  <line x1="555" y1="141" x2="565" y2="151" stroke-width="0.45" opacity="0.5"/>
+  <line x1="565" y1="141" x2="555" y2="151" stroke-width="0.45" opacity="0.5"/>
+  <circle cx="560" cy="146" r="1.2" fill="#fff" stroke="none" opacity="0.8"/>
+  <line x1="340" y1="154" x2="340" y2="164" stroke-width="0.7" opacity="0.5"/>
+  <line x1="335" y1="159" x2="345" y2="159" stroke-width="0.7" opacity="0.5"/>
+  <circle cx="340" cy="159" r="0.9" fill="#fff" stroke="none" opacity="0.6"/>
+</g>
+<circle cx="80"  cy="220" r="0.8" fill="#e8c0d0" opacity="0.5"/>
+<circle cx="148" cy="185" r="0.7" fill="#e8c0d0" opacity="0.45"/>
+<circle cx="530" cy="190" r="0.7" fill="#e8c0d0" opacity="0.45"/>
+<circle cx="602" cy="250" r="0.8" fill="#e8c0d0" opacity="0.4"/>
+
+<!-- ── CLOUDS ── -->
+<g opacity="0.55">
+  <ellipse cx="98"  cy="510" rx="52" ry="22" fill="url(#gCloud2)"/>
+  <ellipse cx="72"  cy="502" rx="32" ry="18" fill="url(#gCloud3)"/>
+  <ellipse cx="122" cy="505" rx="36" ry="16" fill="url(#gCloud3)"/>
+  <ellipse cx="98"  cy="498" rx="28" ry="14" fill="url(#gCloud2)"/>
+</g>
+<g opacity="0.72">
+  <ellipse cx="218" cy="508" rx="78" ry="28" fill="url(#gCloud1)"/>
+  <ellipse cx="186" cy="498" rx="48" ry="22" fill="url(#gCloud1)"/>
+  <ellipse cx="248" cy="496" rx="54" ry="20" fill="url(#gCloud2)"/>
+  <ellipse cx="218" cy="490" rx="42" ry="18" fill="url(#gCloud1)"/>
+  <ellipse cx="200" cy="484" rx="30" ry="14" fill="url(#gCloud2)"/>
+</g>
+<g opacity="0.85">
+  <ellipse cx="340" cy="514" rx="110" ry="34" fill="url(#gCloud1)"/>
+  <ellipse cx="300" cy="502" rx="68"  ry="26" fill="url(#gCloud1)"/>
+  <ellipse cx="378" cy="500" rx="72"  ry="24" fill="url(#gCloud2)"/>
+  <ellipse cx="340" cy="492" rx="58"  ry="22" fill="url(#gCloud1)"/>
+  <ellipse cx="316" cy="482" rx="40"  ry="16" fill="url(#gCloud2)"/>
+  <ellipse cx="362" cy="480" rx="44"  ry="16" fill="url(#gCloud1)"/>
+  <ellipse cx="340" cy="472" rx="32"  ry="14" fill="url(#gCloud1)"/>
+</g>
+<g opacity="0.72">
+  <ellipse cx="462" cy="508" rx="78" ry="28" fill="url(#gCloud1)"/>
+  <ellipse cx="432" cy="498" rx="52" ry="22" fill="url(#gCloud2)"/>
+  <ellipse cx="492" cy="496" rx="50" ry="20" fill="url(#gCloud1)"/>
+  <ellipse cx="462" cy="490" rx="42" ry="18" fill="url(#gCloud2)"/>
+  <ellipse cx="478" cy="482" rx="28" ry="14" fill="url(#gCloud1)"/>
+</g>
+<g opacity="0.55">
+  <ellipse cx="582" cy="510" rx="52" ry="22" fill="url(#gCloud2)"/>
+  <ellipse cx="556" cy="502" rx="34" ry="18" fill="url(#gCloud3)"/>
+  <ellipse cx="608" cy="505" rx="32" ry="16" fill="url(#gCloud3)"/>
+  <ellipse cx="582" cy="498" rx="26" ry="14" fill="url(#gCloud2)"/>
+</g>
+<ellipse cx="48"  cy="518" rx="30" ry="10" fill="url(#gCloud3)" opacity="0.35"/>
+<ellipse cx="632" cy="518" rx="30" ry="10" fill="url(#gCloud3)" opacity="0.35"/>
+
+</svg>

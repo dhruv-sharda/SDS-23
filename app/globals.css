@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --lavender: #d8bfd8;
+  --lavender-dim: #b89ab8;
+  --lavender-glow: rgba(216, 191, 216, 0.6);
+  --lavender-faint: rgba(216, 191, 216, 0.15);
+  --black: #020006;
+  --deep-purple: #0d0012;
+  --font-playfair: "Playfair Display", serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--black);
+  color: white;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--lavender);
+  color: #120017;
+}
+
+/* ── Starfield ── */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50%       { opacity: 1;   transform: scale(1.4); }
+}
+
+@keyframes shootingStar {
+  0%   { transform: translateX(0) translateY(0) rotate(-35deg); opacity: 1; }
+  100% { transform: translateX(300px) translateY(120px) rotate(-35deg); opacity: 0; }
+}
+
+@keyframes orbitSpin {
+  from { transform: rotateX(75deg) rotateZ(0deg); }
+  to   { transform: rotateX(75deg) rotateZ(360deg); }
+}
+
+@keyframes orbitSpinSlow {
+  from { transform: rotateX(75deg) rotateZ(0deg); }
+  to   { transform: rotateX(75deg) rotateZ(360deg); }
+}
+
+@keyframes floatHeart {
+  0%, 100% { transform: translateY(0px);  }
+  50%       { transform: translateY(-8px); }
+}
+
+@keyframes heartSwing {
+  0%, 100% { transform: rotate(-6deg) translateY(0px); }
+  50%       { transform: rotate(6deg)  translateY(-4px); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 20px var(--lavender-glow), 0 0 60px rgba(216,191,216,0.2); }
+  50%       { box-shadow: 0 0 40px var(--lavender-glow), 0 0 100px rgba(216,191,216,0.4); }
+}
+
+@keyframes countdownPop {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes nebulaDrift {
+  0%, 100% { transform: translateX(0) translateY(0) scale(1); opacity: 0.35; }
+  33%       { transform: translateX(20px) translateY(-15px) scale(1.05); opacity: 0.5; }
+  66%       { transform: translateX(-15px) translateY(10px) scale(0.97); opacity: 0.3; }
+}
+
+@keyframes scrollBounce {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(8px); }
+}
+
+.star-twinkle { animation: twinkle var(--duration, 3s) ease-in-out infinite; }
+.shooting-star { animation: shootingStar 2s ease-out forwards; }
+.float-heart { animation: floatHeart 3s ease-in-out infinite; }
+.heart-swing { animation: heartSwing 4s ease-in-out infinite; }
+.pulse-glow { animation: pulseGlow 3s ease-in-out infinite; }
+.scroll-bounce { animation: scrollBounce 2s ease-in-out infinite; }
+.nebula-drift { animation: nebulaDrift 12s ease-in-out infinite; }
